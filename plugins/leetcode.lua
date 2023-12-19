@@ -18,7 +18,7 @@ return {
         cn = {
             enabled = true,
         },
-        directory = "/home/zugle/github/leetcode/rust",
+        directory = "/data/github/coding/leetcode",
         description = {
             width = "100%", ---@type string | integer
         }
