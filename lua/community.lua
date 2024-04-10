@@ -22,7 +22,7 @@ return {
               },
               {
                 name = "JavaSE-8",
-                path = "/soft/jdk-1.8.0_202",
+                path = "/soft/jdk1.8.0_202",
                 default = true
               },
             },
