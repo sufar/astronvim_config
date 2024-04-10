@@ -8,6 +8,7 @@ return {
   -- these packs can set up things such as Treesitter, Language Servers, additional language specific plugins, and more!
   { import = "astrocommunity.pack.rust" },
   -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.java" },
   {
     "mfussenegger/nvim-jdtls",
     opts = {
@@ -22,6 +23,7 @@ return {
               {
                 name = "JavaSE-8",
                 path = "/soft/jdk-1.8.0_202",
+                default = true
               },
             },
           },
