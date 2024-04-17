@@ -64,6 +64,36 @@ return {
         ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+        ["<leader>1"] = {
+          function() require("astronvim.utils.buffer").nav_to(1) end,
+        },
+        ["<leader>2"] = {
+          function() require("astronvim.utils.buffer").nav_to(2) end,
+        },
+        ["<leader>3"] = {
+          function() require("astronvim.utils.buffer").nav_to(3) end,
+        },
+        ["<leader>4"] = {
+          function() require("astronvim.utils.buffer").nav_to(4) end,
+        },
+        ["<leader>5"] = {
+          function() require("astronvim.utils.buffer").nav_to(5) end,
+        },
+        ["<leader>6"] = {
+          function() require("astronvim.utils.buffer").nav_to(6) end,
+        },
+        ["<leader>7"] = {
+          function() require("astronvim.utils.buffer").nav_to(7) end,
+        },
+        ["<leader>8"] = {
+          function() require("astronvim.utils.buffer").nav_to(8) end,
+        },
+        ["<leader>9"] = {
+          function() require("astronvim.utils.buffer").nav_to(9) end,
+        },
+        ["<leader>0"] = {
+          function() require("astronvim.utils.buffer").nav_to(10) end,
+        },
       },
       t = {
         -- setting a mapping to false will disable it
