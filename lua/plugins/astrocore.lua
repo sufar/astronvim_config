@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -65,34 +63,44 @@ return {
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
         ["<leader>1"] = {
-          function() require("astronvim.utils.buffer").nav_to(1) end,
+          function() require("astrocore.buffer").nav_to(1) end,
+          desc = "buffer 1",
         },
         ["<leader>2"] = {
-          function() require("astronvim.utils.buffer").nav_to(2) end,
+          function() require("astrocore.buffer").nav_to(2) end,
+          desc = "buffer 2",
         },
         ["<leader>3"] = {
-          function() require("astronvim.utils.buffer").nav_to(3) end,
+          function() require("astrocore.buffer").nav_to(3) end,
+          desc = "buffer 3",
         },
         ["<leader>4"] = {
-          function() require("astronvim.utils.buffer").nav_to(4) end,
+          function() require("astrocore.buffer").nav_to(4) end,
+          desc = "buffer 4",
         },
         ["<leader>5"] = {
-          function() require("astronvim.utils.buffer").nav_to(5) end,
+          function() require("astrocore.buffer").nav_to(5) end,
+          desc = "buffer 5",
         },
         ["<leader>6"] = {
-          function() require("astronvim.utils.buffer").nav_to(6) end,
+          function() require("astrocore.buffer").nav_to(6) end,
+          desc = "buffer 6",
         },
         ["<leader>7"] = {
-          function() require("astronvim.utils.buffer").nav_to(7) end,
+          function() require("astrocore.buffer").nav_to(7) end,
+          desc = "buffer 7",
         },
         ["<leader>8"] = {
-          function() require("astronvim.utils.buffer").nav_to(8) end,
+          function() require("astrocore.buffer").nav_to(8) end,
+          desc = "buffer 8",
         },
         ["<leader>9"] = {
-          function() require("astronvim.utils.buffer").nav_to(9) end,
+          function() require("astrocore.buffer").nav_to(9) end,
+          desc = "buffer 9",
         },
         ["<leader>0"] = {
-          function() require("astronvim.utils.buffer").nav_to(10) end,
+          function() require("astrocore.buffer").nav_to(10) end,
+          desc = "buffer 10",
         },
       },
       t = {
